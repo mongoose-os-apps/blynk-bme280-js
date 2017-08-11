@@ -1,5 +1,5 @@
-author: UnAfraid
-description: An app that provides bme280 sensor data to blynk
+author: Rumen Nikiforov
+description: AUsing BME280 sensor with Blynk mobile app
 version: 1.0
 
 libs_version: ${mos_version}

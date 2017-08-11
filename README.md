@@ -1,4 +1,4 @@
-# Using Blynk with Mongoose OS
+# Using BME280 sensor with Blynk mobile app
 
 ## Overview
 
