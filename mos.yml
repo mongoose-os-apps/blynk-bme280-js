@@ -1,5 +1,5 @@
 author: Rumen Nikiforov
-description: AUsing BME280 sensor with Blynk mobile app
+description: Using BME280 sensor with Blynk mobile app
 version: 1.0
 
 libs_version: ${mos_version}
