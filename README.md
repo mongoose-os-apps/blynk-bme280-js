@@ -7,6 +7,14 @@ Go to device configuration and specify
 `blynk.auth` setting to your Blynk access token. Or, alternatively,
 run the following console command (from the terminal or "Terminal" tab in Web UI):
 
+# BME280 sensor i2c address
+```bash
+# In case its on 0x76 use this
+mos config-set i2c.address=0x76
+# Otherwise if its on 0x77 use this
+mos config-set i2c.address=0x77
+```
+
 ```bash
 mos config-set blynk.auth=YOUR_TOKEN blynk.server="blynk-cloud.com:8442"
 ```

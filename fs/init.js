@@ -4,7 +4,7 @@ load('api_blynk.js');
 load('api_sys.js');
 
 // Sensors address
-let sens_addr = 0x77;
+let sens_addr = Cfg.get('i2c.address') | 0x77;
 // Initialize Adafruit_BME280 library
 let bme = Adafruit_BME280.create();
 // Initialize the sensor

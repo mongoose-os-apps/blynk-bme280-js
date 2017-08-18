@@ -17,6 +17,7 @@ tags:
 filesystem:
   - fs
 
+# List of libraries used by this app, in order of initialisation
 libs:
     # common mgos libs
   - origin: https://github.com/mongoose-os-libs/rpc-service-config
@@ -36,5 +37,6 @@ config_schema:
   - ["i2c.enable", true]
   - ["i2c.sda_gpio", 14]
   - ["i2c.scl_gpio", 12]
+  - ["i2c.address", "i", 0x77, {title: "The device i2c address usually 0x76 or 0x77"}]
 # Used by the mos tool to catch mos binaries incompatible with this file format
 skeleton_version: 2017-05-18
