@@ -2,6 +2,7 @@ load('api_arduino_bme280.js');
 load('api_gpio.js');
 load('api_blynk.js');
 load('api_sys.js');
+load('api_config.js');
 
 // Sensors address
 let sens_addr = Cfg.get('i2c.address') | 0x77;
